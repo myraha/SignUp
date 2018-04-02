@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="description" content="Sign Up for AnalogSea.">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+</head>
+<body>
+	<img src="logo.png" class="logo" alt="AnalogSea Logo">
+
+
+
+  <form class="demo-form" role="form" action="/signup" accept-charset="UTF-8" method="post">
+   <fieldset>
+    	 <legend>Sign Up</legend>
+      
+      <label for="email">Email</label>
+        <input placeholder="foo@bar.com" type="text" name='email' id="email" 
+          required pattern=".+@"
+          title="Please provide a valid email address"/>
+
+      <label for="password">Password</label>
+        <input placeholder="1234passw0rd" type="text" name="password" id="password" 
+           required pattern=".+"
+          title="Please provide a password"/>
+
+            <button type="submit" class="button">Sign Up</button>
+        </fieldset>
+    </form>
+
+            <p>Already have an account? <a href="/login">Log In</a></p>
+
+
+
+
+</body>
+</html>
